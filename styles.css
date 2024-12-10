@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إشراق - الموقع الرسمي</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #FFDEE9, #B5FFFC);
+            color: #333333;
+        }
+        header, nav, section, footer {
+            padding: 20px;
+        }
+        header {
+            background-color: #FF9A8B;
+            color: #ffffff;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        nav {
+            background-color: #FF6A88;
+            display: flex;
+            justify-content: space-around;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .poem, .gallery, .new-section {
+            background: #FFF;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .poem h2, .new-section h2 {
+            color: #FF6A88;
+        }
+        footer {
+            background: #333333;
+            color: #ffffff;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>إشراق</h1>
+    <p>حيث تشرق الأرواح بالكلمات والجمال</p>
+</header>
+
+<nav>
+    <a href="#about">عن إشراق</a>
+    <a href="#poetry">الشعر</a>
+    <a href="#gallery">الصور والفيديو</a>
+    <a href="#love">حب إشراق</a>
+</nav>
+
+<section id="about">
+    <h2>عن إشراق</h2>
+    <p>إشراق هي نجمة مضيئة في سماء الحب، تسحر القلوب بجمالها وكلماتها العذبة.</p>
+</section>
+
+<section id="poetry" class="poem">
+    <h2>قصيدة مميزة</h2>
+    <p>
+        بان القمر و بانت خداك<br>
+        فما فرحت اليوم إلا للقياك<br>
+        فليس لي شيء لكي ألقاك<br>
+        ولا جمال يقارن بهواك<br>
+        ما أغرتني إلا تلك النظرة من عيناك<br>
+        فأنسى نفسي وأسرف في هواك<br>
+    </p>
+</section>
+
+<section id="gallery" class="gallery">
+    <h2>معرض الصور والفيديوهات</h2>
+    <div>
+        <img src="images/istockphoto-1469618147-612x612.jpg" alt="صورة إشراق" style="width: 100%; border-radius: 8px;">
+        <p>إشراق - عنوان الجمال</p>
+    </div>
+    <div>
+        <video controls style="width: 100%; border-radius: 8px;">
+            <source src="videos/1129.mp4" type="video/mp4">
+            الفيديو غير مدعوم في متصفحك.
+        </video>
+        <p>لحظات لا تُنسى</p>
+    </div>
+</section>
+
+<section id="love" class="new-section">
+    <h2>إشراق - حب لا ينتهي</h2>
+    <p>
+        إشراق، يا وردة في حديقة حياتي،<br>
+        جمالك ليس فقط في المظهر، بل في كل نظرة وحركة منكِ.<br>
+        تضيئين عتمة أيامي بنور عينيك،<br>
+        وتُرسلين في قلبي نغمة حب لا تنتهي.<br>
+        يا من تسكنين الفؤاد، كل كلمة تُكتب عنكِ هي قطرة من بحر عشقي لكِ.<br>
+    </p>
+</section>
+
+<footer>
+    <p>© 2024 إشراق - جميع الحقوق محفوظة</p>
+</footer>
+
+</body>
+</html>
